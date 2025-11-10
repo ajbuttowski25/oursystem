@@ -19,6 +19,17 @@ public function run(): void
         InventorySeeder::class,
         InventoryRawmatsSeeder::class,
         CustomerSeeder::class,
+        SuppliersTableSeeder::class,
+        SupplierOffersTableSeeder::class,
+        SalesOrdersTableSeeder::class,
+        ReturnToVendorTableSeeder::class,
+        PurchaseReceiptsSeeder::class,
+        PurchaseOrdersSeeder::class,
+        PurchaseOrderItemsSeeder::class,
+        ProductionOutputsSeeder::class,
+        PersonalAccessTokensSeeder::class,
+        InventoryActivityLogsSeeder::class,
+        DisposalsSeeder::class,
     ]);
 }
 
